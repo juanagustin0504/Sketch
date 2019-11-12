@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762D6C0C237A95F90069374F /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D6C0B237A95F90069374F /* SelectColorViewController.swift */; };
 		7677649723740B850011419F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677649623740B850011419F /* AppDelegate.swift */; };
 		7677649923740B850011419F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677649823740B850011419F /* SceneDelegate.swift */; };
 		7677649B23740B850011419F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677649A23740B850011419F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		762D6C0B237A95F90069374F /* SelectColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
 		7677649323740B850011419F /* Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7677649623740B850011419F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7677649823740B850011419F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		7677649523740B850011419F /* Sketch */ = {
 			isa = PBXGroup;
 			children = (
+				762D6C0B237A95F90069374F /* SelectColorViewController.swift */,
 				7677649623740B850011419F /* AppDelegate.swift */,
 				7677649823740B850011419F /* SceneDelegate.swift */,
 				7677649A23740B850011419F /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				7677649B23740B850011419F /* ViewController.swift in Sources */,
 				7677649723740B850011419F /* AppDelegate.swift in Sources */,
 				7677649923740B850011419F /* SceneDelegate.swift in Sources */,
+				762D6C0C237A95F90069374F /* SelectColorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

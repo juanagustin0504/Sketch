@@ -8,11 +8,13 @@
 
 import UIKit
 
+var lineColor = UIColor.red.cgColor
+
 class ViewController: UIViewController {
     
     var lastPoint : CGPoint!
     var lineSize : CGFloat = 2.0
-    var lineColor = UIColor.red.cgColor
+    
 
     @IBOutlet weak var imgView: UIImageView!
     
