@@ -35,6 +35,14 @@
                                     <segue destination="gCG-Sr-l5K" kind="presentation" id="GVo-sT-Zg8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wg8-uI-bG1">
+                                <rect key="frame" x="16" y="633" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Undo/Redo"/>
+                                <connections>
+                                    <action selector="btnUndoOrRedo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jTY-hP-jqx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
